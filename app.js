@@ -1,12 +1,12 @@
 //#1 Array Slice
 
-onst foods = ["pizza", "burger", "fingerShips", "donuts", "springRoll"];
+var items = ["pizza", "burger", "fingerShips", "donuts", "springRoll"];
 
-function slice_food(foods,x,y);
+function slice_food(items,x,y);
 {
 
-var mod_food   = foods.slice(x,y);
-console.log(mod_food);
+var modifitem   = items.slice(x,y);
+console.log(modifiitem);
 
 }
 console.log(slice_food(food,1,3));
